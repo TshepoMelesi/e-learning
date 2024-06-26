@@ -1,0 +1,45 @@
+*{
+        margin: 0;
+        padding: 0;
+
+        font-size: 18px;
+        font-family: Helvetica;
+
+        box-sizing: border-box;
+}
+
+:root{
+        --primary-color: rgb(226, 230, 239);
+        --bg-color: rgb(198, 232, 255);
+        --bg-dark-color: rgb(0, 136, 199);
+        --text-dark-color: rgb(0, 37, 54);
+        --tertiary-color : orange;
+
+        --gap-050 : 0.5rem;
+        --gap-080 : 0.8rem;
+        --gap-100 : 1rem;
+}
+
+h1 {
+        font-size: 1.5rem;
+}
+h2{
+        font-size: 1.3rem;
+}
+h3{
+        font-size: 1.1rem;
+}
+p{
+        font-size: 1rem;
+}
+
+
+.container{
+        width: 100%;
+        margin: 0 2rem;
+        max-width: 1000px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
