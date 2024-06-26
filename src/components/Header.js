@@ -1,4 +1,5 @@
 import "../styles/header.css"
+import "../styles/hamburger.css"
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -15,7 +16,7 @@ const Header = () => {
                         <div className="container">
                                 <h1 className="logo">ASM<span className="logo-span">tutors</span></h1>
 
-                                <div>
+                                <div className="search-tag">
                                         <input className="search-bar" typeof="text" value={search} onChange={handleOnSearch}></input>
                                         <button className="search-btn">Q</button>
                                 </div>
@@ -27,6 +28,11 @@ const Header = () => {
                                                 <Link to="/login">Login</Link>
                                         </ul>
                                 </nav>
+                                <button className="hamburger">
+                                        <div className="line1"></div>
+                                        <div className="line2"></div>
+                                        <div className="line3"></div>
+                                </button>
                         </div>
                 </header>
         )

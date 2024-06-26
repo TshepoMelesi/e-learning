@@ -15,13 +15,11 @@ const App = () => {
         return (
                 <div className="App">
                         <Header />
-                        <div className="container">
                                 <Routes>
                                         <Route path="/" element={<Home />} />
                                         <Route path="/about" element={<About />} />
                                         <Route path="/*" element={<NotFound />} />
                                 </Routes>
-                        </div>
                         <Footer />
                 </div>
         )

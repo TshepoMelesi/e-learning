@@ -1,7 +1,10 @@
+import "../styles/hero.css"
+import heroImage from "../assets/images/image.jpg"
+
 const Hero = () => {
         return (
                 <section className="hero-section">
-                        <h1>Hello There! Hero Section Here!</h1>
+                        <img src={heroImage} alt="just an image" />
                 </section>
         )
 }
